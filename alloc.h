@@ -14,5 +14,3 @@ typedef struct heap_metadata {
     size_t heap_size; 
     block_metadata *blocks;
 } heap_metadata;
-
-block_metadata *create_list(size_t block_size, size_t heap_size);
